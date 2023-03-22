@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(173, 164, 164);
+    border: 5px solid gold;
+}
+.main-body{
+    
+}
+h3{
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 3vh;
+    color: rgb(17, 17, 16);
+}
+h1{
+    /* text-align: center; */
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 5vh;
+}
+section{
+    position: absolute;
+    top: 0;
+    left: 55%;
+    background-color: aqua;
+
+}
+.half-body h1{
+    margin-left: 25px;
+    margin-top: 45%;
+}
+.half-body{
+    text-align: center;
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+}
+input{
+    display: block;
+    margin: 50px;
+    padding: 10px;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none ;
+    background: none;
+    border-bottom: 2px solid black;
+}
+.icons-input{
+    display: flex;
+}
+.icons-input img{
+    height: 50px;
+    margin-left: 30%;
+}
+.left .learn-button{
+    background-color: rgb(130, 130, 212);
+    border: none;
+    border-radius: 5px;
+    padding: 20px 20px;
+    font-size: 2vh;
+    position: absolute;
+    left: 20%;
+}
+.learn-button{
+    background-color: rgb(130, 130, 212);
+    padding: 10px  15px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 30%;
+}
+.foot{
+    display: flex; 
+    top: 100px;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.foot h3{
+    padding: 20px 20px;
+    font-size: small;
+}
+.right a{
+    margin-left: 50%;
+   
+}

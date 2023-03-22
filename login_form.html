@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<h2>Login Form</h2>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <div>
+        <label for="uname"><b> Username</b></label>
+    <input type="text" placeholder="Enter Your Username" name="uname" required>
+    </div>
+    
+    <div>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Your Password" name="psw" required>
+    </div>  
+      
+    <div>
+        <button type="submit">Login</button>
+    </div>
+   
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <span class="psw">Create <a href="Register.html">New Account</a></span>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
